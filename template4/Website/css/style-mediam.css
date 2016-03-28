@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (min-width : 480px) and (max-width : 1000px)
+{
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	color:#000;
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+	text-size-adjust: 100%;
+	
+	width:100%;
+	background-image:url(../images/bg0013.png);
+    background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+	background-position:center;
+	
+}
+
+#continer_main
+{	width:96%;
+	padding:2%;
+	margin:auto;
+}
+#header
+{
+	width:100%;
+	height:100px;
+}
+.logo
+{
+	width:180px;
+	height:100px;
+}
+
+
+
+.dancer1{
+	 float:left;
+	width:25%;
+	height:350px;
+	background-position:center;
+	background-image:url(../images/dancerMedium01.png);
+	background-repeat:no-repeat;
+	
+	}
+	
+	.dancer2{
+	
+    float:left;
+	width:20%;
+	height:350px;
+	background-position:center;
+	background-image:url(../images/dancerMedium02.png);
+	background-repeat:no-repeat;
+	    margin-left: auto;      
+    margin-right: auto;    
+	
+	}
+	
+	.main_text{
+	
+    float:left;
+	width:49%;
+	height:500px;	
+	background-image:url(../images/side-bg01.png);
+	background-size:100%;
+	
+	
+	
+	}
+.content
+{
+	padding:2%;
+	width:96%;
+	float:right;
+	
+}
+.section
+{
+	padding:60px;
+	text-align:justify;
+	margin-bottom:10px;
+	
+}
+
+.scroll {
+	
+	overflow-y: auto; 
+	height:170px;
+	}
+.section ul
+{
+	margin:10px 30px;
+}
+.divide_box
+{
+	width:380px;
+	float:none;
+	margin:10px auto !important;
+	min-height:130px;
+	text-align:center;
+	padding:10px;
+	
+}
+.divide_box img
+{
+	border-radius:100%;
+	width:230PX;
+	height:auto;
+	border:#CCC solid 5px;
+	margin:0 auto;
+}
+.full_width
+{
+	width:80%;
+	text-align:center;
+	padding:10%;
+}
+.full_width_head
+{
+	font-size:36px;
+	padding:10px;
+}
+.head_imag
+
+{
+
+	float:left;
+	height:auto;
+}
+
+.side_bar
+{
+	margin:0px auto;
+			
+
+	
+	
+	width:100%;
+	background-image:url(../images/side-bg3.png);
+    background-repeat:no-repeat;
+	background-size:cover;
+	height:300px;
+	background-position:center;
+	
+
+}
+
+
+
+.side-bg{
+	
+	margin:0px auto;
+	padding: 40px 0px 0px 0px;
+		
+	height:80%;
+
+	}
+.side_menu
+{
+	width:50%;
+	display:block;
+	list-style:none;
+}
+.side_menu a
+{
+	display:block;
+	height:30px;
+	color:#333;
+	text-decoration:none;
+	font-weight:bold;
+	line-height:30px;
+	
+	padding-left:10px;
+}
+.side_menu a:hover
+{
+	color:#FFF;
+	
+}
+.footer
+{
+	
+	color:#FFF;
+	
+    background-image: url(../images/bg014.png);
+    background-repeat:no-repeat;
+	height:100%;
+	background-size:cover;
+
+	background-position:center;
+}
+.inside_footer
+{
+	
+	width:98%;
+	margin:auto;
+	text-align:center;
+	padding-top:10px;
+}
+.social_ico
+{
+	float:right;
+	height:50px;
+}
+
+.copy
+{
+
+	text-align:left;
+	padding:10px;
+	float:left;
+}
+.footer_menu
+{
+	clear:both;
+	text-align:center;
+	padding-top:20px;
+	
+}
+.footer_menu ul
+{
+	margin:0px;
+	padding:0px;
+}
+.footer_menu li
+{
+	display:inline;
+}
+.footer_menu a
+{
+	text-align:center;
+		display:inline;
+	padding:0 15px;
+	color:#CCC;
+	text-decoration:none;
+	font-size:14px;
+}
+.footer_menu a:hover
+{
+	color:#930;
+}
+}
